@@ -15,21 +15,27 @@
             <stringArg name="destination" arg="$MODULE_DIR$/../../desktop-app/build/classes/kotlin/test" />
             <stringArg name="jvmTarget" arg="17" />
             <stringArg name="moduleName" arg="desktop-app_test" />
-            <stringArg name="apiVersion" arg="1.9" />
-            <stringArg name="languageVersion" arg="1.9" />
+            <stringArg name="apiVersion" arg="2.1" />
+            <stringArg name="languageVersion" arg="2.1" />
           </stringArguments>
           <arrayArguments>
             <arrayArg name="pluginClasspaths">
               <args>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.9.0/e2e6a0bd37a72cded2fec7882199e1bdc4e8bcb4/kotlin-scripting-jvm-1.9.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.9.0/ea019fa9e3885795a81df270775e5609f7115307/kotlin-scripting-common-1.9.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.0/8ee15ef0c67dc83d874f412d84378d7f0eb50b63/kotlin-stdlib-1.9.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.9.0/cd65c21cfd1eec4d44ef09f9f52b6d9f8a720636/kotlin-stdlib-common-1.9.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compose-compiler-plugin-embeddable/2.1.20/1e49b4d1b06f1e4a2b4b162f4291d77371e74dbb/kotlin-compose-compiler-plugin-embeddable-2.1.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/2.1.20/963b49de86cb5ee7cddf8724187d1658ac85e4ef/kotlin-scripting-jvm-2.1.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/2.1.20/29a91fb9489edffc21d296b565d9bb62476971b7/kotlin-scripting-common-2.1.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.1.20/aa8ca79cd50578314f6d1180c47cbe14c0fee567/kotlin-stdlib-2.1.20.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.9.0/4b3102cbbb7e1b58d9d1adf89563f00069ffa7d1/kotlin-script-runtime-1.9.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/2.1.20/f7c623d7f7bdb01f5ccd6b437bc0a937fcd7c57e/kotlin-script-runtime-2.1.20.jar</arg>
+                <arg>$KOTLIN_BUNDLED$/lib/kotlinx-serialization-compiler-plugin.jar</arg>
               </args>
             </arrayArg>
-            <arrayArg name="pluginOptions" />
+            <arrayArg name="pluginOptions">
+              <args>
+                <arg>plugin:androidx.compose.compiler.plugins.kotlin:sourceInformation=true</arg>
+                <arg>plugin:androidx.compose.compiler.plugins.kotlin:traceMarkersEnabled=true</arg>
+              </args>
+            </arrayArg>
           </arrayArguments>
         </compilerArguments>
       </configuration>
@@ -38,6 +44,8 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
     <output-test url="file://$MODULE_DIR$/../../desktop-app/build/classes/java/test" />
     <exclude-output />
+    <content url="file://$MODULE_DIR$/../../desktop-app/build/generated/compose/resourceGenerator/kotlin/testResourceAccessors" />
+    <content url="file://$MODULE_DIR$/../../desktop-app/build/generated/compose/resourceGenerator/preparedResources/test/composeResources" />
     <content url="file://$MODULE_DIR$/../../desktop-app/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../desktop-app/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../desktop-app/src/test/resources" type="java-test-resource" />
@@ -45,19 +53,83 @@
     <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="desktop-app.main" />
+    <orderEntry type="library" name="Gradle: io.github.cdimascio:dotenv-kotlin:6.4.1" level="project" />
     <orderEntry type="library" name="Gradle: com.fazecast:jSerialComm:2.9.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:4.11.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.15.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.9.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.15.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.15.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.5.32" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okio:okio-jvm:3.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.15.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:4.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:2.1.20" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.jan-tennert.supabase:postgrest-kt-jvm:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.jan-tennert.supabase:auth-kt-jvm:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.cdimascio:dotenv-java:2.3.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:23.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.desktop:desktop-jvm:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:2.1.20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio-jvm:3.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.jan-tennert.supabase:supabase-kt-jvm:3.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-cio-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-core-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.russhwolf:multiplatform-settings-no-arg-jvm:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.russhwolf:multiplatform-settings-coroutines-jvm:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.material:material-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.foundation:foundation-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.ui:ui-tooling-preview-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.ui:ui-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.runtime:runtime-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:2.0.16" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:config:1.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-content-negotiation-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-core-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-serialization-kotlinx-json-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-jvm:0.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: co.touchlab:kermit-jvm:2.0.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-jvm:0.27.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-websockets-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-serialization-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-events-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-utils-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.russhwolf:multiplatform-settings-jvm:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.material:material-ripple-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.material:material-icons-core-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.animation:animation-core-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.ui:ui-text-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.animation:animation-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.skiko:skiko-awt:0.8.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.runtime:runtime-saveable-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.ui:ui-graphics-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.ui:ui-unit-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.ui:ui-geometry-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.ui:ui-util-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-websocket-serialization-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-sse-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-serialization-kotlinx-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json-io-jvm:1.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: co.touchlab:kermit-core-jvm:2.0.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-io-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.compose.foundation:foundation-layout-desktop:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-io-core-jvm:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-io-bytestring-jvm:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.jan-tennert.supabase:main-kt:3.1.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.skiko:skiko-awt-runtime-windows-x64:0.8.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.23" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.kotlincrypto.random:crypto-rand-jvm:0.5.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.fusesource.jansi:jansi:2.4.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.kotlincrypto:error-jvm:0.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose-desktop:2.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-slf4j:1.10.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.annotation:annotation-jvm:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.collection:collection-jvm:1.4.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.lifecycle:lifecycle-common-jvm:2.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.lifecycle:lifecycle-runtime-desktop:2.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-desktop:2.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: androidx.arch.core:core-common:2.2.0" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="desktop-app.main" />
 </module>

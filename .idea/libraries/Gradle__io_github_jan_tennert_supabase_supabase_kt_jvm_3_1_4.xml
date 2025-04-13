@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.jan-tennert.supabase:supabase-kt-jvm:3.1.4" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.jan-tennert.supabase" artifactId="supabase-kt-jvm" version="3.1.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.jan-tennert.supabase/supabase-kt-jvm/3.1.4/df21560c6cf01c43deb2e1cb81710c4f2f11928e/supabase-kt-jvm-3.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.jan-tennert.supabase/supabase-kt-jvm/3.1.4/124a4ccd8606e46d4b7c4863dd82502b7777dc6d/supabase-kt-jvm-3.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

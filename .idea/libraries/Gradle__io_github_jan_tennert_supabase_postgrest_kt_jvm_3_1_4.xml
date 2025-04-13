@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.jan-tennert.supabase:postgrest-kt-jvm:3.1.4" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.jan-tennert.supabase" artifactId="postgrest-kt-jvm" version="3.1.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.jan-tennert.supabase/postgrest-kt-jvm/3.1.4/61d6da7262ed982031001e272285dacc4e75f77a/postgrest-kt-jvm-3.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.jan-tennert.supabase/postgrest-kt-jvm/3.1.4/e1178f9aef9c7ab51b3d28355db2504dfe505985/postgrest-kt-jvm-3.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

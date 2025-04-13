@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: co.touchlab:kermit-jvm:2.0.5" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="co.touchlab" artifactId="kermit-jvm" version="2.0.5" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/kermit-jvm/2.0.5/238fc9aa9136744e960444e965de2d02ce9fb6ab/kermit-jvm-2.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/kermit-jvm/2.0.5/4c311269511b9667c7da3be66066ad1fdcd2bb34/kermit-jvm-2.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

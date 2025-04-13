@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.jan-tennert.supabase:auth-kt-jvm:3.1.4" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.jan-tennert.supabase" artifactId="auth-kt-jvm" version="3.1.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.jan-tennert.supabase/auth-kt-jvm/3.1.4/7804398e477e562ee02d1b40566aa287e5af36fa/auth-kt-jvm-3.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.jan-tennert.supabase/auth-kt-jvm/3.1.4/e6aa3f40000a9f20e10511be91a082d6fe4432e7/auth-kt-jvm-3.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

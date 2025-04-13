@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.kotlincrypto:error-jvm:0.3.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.kotlincrypto" artifactId="error-jvm" version="0.3.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kotlincrypto/error-jvm/0.3.0/8e13e2a54cbe5234b6dfc0392b2875729f0dabaf/error-jvm-0.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kotlincrypto/error-jvm/0.3.0/a475619205413855d2b58df506a6b60ffd7ca4a1/error-jvm-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

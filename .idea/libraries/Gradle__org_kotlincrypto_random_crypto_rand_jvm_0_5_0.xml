@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.kotlincrypto.random:crypto-rand-jvm:0.5.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.kotlincrypto.random" artifactId="crypto-rand-jvm" version="0.5.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kotlincrypto.random/crypto-rand-jvm/0.5.0/b8b43b164c3c543195a7f454f4f362fa50d766f/crypto-rand-jvm-0.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kotlincrypto.random/crypto-rand-jvm/0.5.0/f525a06254e3b61c981261eb91fd4c05390447d7/crypto-rand-jvm-0.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,6 @@
+D:\Projects\Wiadomo\desktop-app\src\main\kotlin\pl\wiadomo\config\SessionManager.kt
+D:\Projects\Wiadomo\desktop-app\src\main\kotlin\pl\wiadomo\ui\LoginScreen.kt
+D:\Projects\Wiadomo\desktop-app\src\main\kotlin\pl\wiadomo\service\SupabaseClient.kt
+D:\Projects\Wiadomo\desktop-app\src\main\kotlin\pl\wiadomo\config\Env.kt
+D:\Projects\Wiadomo\desktop-app\src\main\kotlin\pl\wiadomo\Main.kt
+D:\Projects\Wiadomo\desktop-app\src\main\kotlin\pl\wiadomo\service\AuthService.kt
